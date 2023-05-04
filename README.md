@@ -1,4 +1,4 @@
-<div>
+<div align="center">
   <div style="display: flex; align-items: flex-start; flex-direction: rows">
     <a href="https://github.com/Diegwl">
     <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=diegwl&layout=compact&langs_count=7&theme=dark"/>
