@@ -13,7 +13,7 @@ on:
 # Regras
 jobs:
   build:
-    runs-on: windows
+    runs-on: ubuntu-latest
     steps:
 
     # Checks repo under $GITHUB_WORKSHOP, so your job can access it
@@ -33,7 +33,7 @@ jobs:
       - name: Push changes
         uses: ad-m/github-push-action@master
         with:
-          github_token: ${{ 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 }}
+          github_token: ${{ secrets.GITHUB_TOKEN }}
           branch: master
           force: true
 
@@ -43,4 +43,4 @@ jobs:
           target_branch: output
           build_dir: dist
         env:
-          GITHUB_TOKEN: ${{ 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 }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
