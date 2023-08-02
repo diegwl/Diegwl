@@ -13,7 +13,7 @@ on:
 # Regras
 jobs:
   build:
-    runs-on: ubuntu-latest
+    runs-on: windows
     steps:
 
     # Checks repo under $GITHUB_WORKSHOP, so your job can access it
@@ -34,7 +34,7 @@ jobs:
         uses: ad-m/github-push-action@master
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          branch: main
+          branch: master
           force: true
 
       - uses: crazy-max/ghaction-github-pages@v2.1.3
