@@ -37,4 +37,10 @@
   <img align="center" height="50" width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/canva/canva-original.svg" />
 </div>
 
+---
+
+![Últimas músicas ouvidas](https://spotify-recently-played-readme.vercel.app/api?user=diegocastan&count=2&width=1000)
+
+---
+
 ![snake gif](https://github.com/diegwl/Diegwl/blob/output/github-contribution-grid-snake.svg)
