@@ -14,12 +14,8 @@
 
 ---
 
-
-   
-<div align="center">
-  <img align="left" src="https://spotify-recently-played-readme.vercel.app/api?user=diegocastan&count=2&width=500"> 
-  <img src="https://thumbs.gfycat.com/EntireBlackEchidna-max-1mb.gif"/>
-</div>
+   |  <img align="left" src="https://spotify-recently-played-readme.vercel.app/api?user=diegocastan&count=2&width=650">     |  <img src="https://thumbs.gfycat.com/EntireBlackEchidna-max-1mb.gif"/>       |
+   |    :----:    |    :----:   |
 
 ---
 
