@@ -10,24 +10,29 @@ on:
 # Permite executar na na lista de Actions (utilizado para testes de build).
   workflow_dispatch:
 
+  push:
+    branches:
+    - master
+
 # Regras
 jobs:
   build:
     runs-on: ubuntu-latest
+    timeout-minutes: 10
+    
     steps:
-
-    # Checks repo under $GITHUB_WORKSHOP, so your job can access it
-      - uses: actions/checkout@v3
+      - name: generate github-contribution-grid-snake.svg
 
     # Repositorio que será utilizado para gerar os arquivos.
-      - uses: Platane/snk@v3
-        id: snake-gif
+        uses: Platane/snk/svg-only@v3
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
             dist/github-snake.svg
             dist/github-snake-dark.svg?palette=github-dark
             dist/ocean.gif?color_snake=orange&color_dots=#bfd6f6,#8dbdff,#64a1f4,#4b91f1,#3c7dd9
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - run: git status
 
