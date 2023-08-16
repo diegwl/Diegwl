@@ -20,5 +20,6 @@
    |    :----:    |    :----:   |
 
 ---
-
-![snake gif](https://github.com/diegwl/Diegwl/blob/output/github-snake.svg)
+<div align="center">
+   <img src="https://github.com/diegwl/Diegwl/blob/output/github-snake-dark.svg" />
+</div>
