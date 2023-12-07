@@ -16,7 +16,7 @@
 
 ---
 
-   |  ![My scrobbles](https://lastfm-recently-played.vercel.app/api?user=diegwl&count=2&width=650)     |  <img src="https://thumbs.gfycat.com/EntireBlackEchidna-max-1mb.gif"/>       |
+   |  ![My scrobbles](https://lastfm-recently-played.vercel.app/api?user=diegwl&count=2&width=650)     |  <img width="300px" src="https://media.tenor.com/rO4tilvjBygAAAAC/chrollo-lucilfer-chrollo.gif"/>       |
    |    :----:    |    :----:   |
 
 ---
