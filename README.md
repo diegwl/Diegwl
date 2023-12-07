@@ -16,7 +16,7 @@
 
 ---
 
-   |  ![My scrobbles](https://lastfm-recently-played.vercel.app/api?user=diegwl&count=3&width=650)     |  <img width="300px" src="https://media.tenor.com/rO4tilvjBygAAAAC/chrollo-lucilfer-chrollo.gif"/>       |
+   |  ![My scrobbles](https://lastfm-recently-played.vercel.app/api?user=diegwl&count=3&width=550)     |  <img width="400px" src="https://media.tenor.com/rO4tilvjBygAAAAC/chrollo-lucilfer-chrollo.gif"/>       |
    |    :----:    |    :----:   |
 
 ---
